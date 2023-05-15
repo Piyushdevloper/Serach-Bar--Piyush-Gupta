@@ -1,0 +1,51 @@
+*{
+	
+}
+
+body{
+	background-color: #e84118;
+}
+
+.container{
+	height: 50px;
+	width: 350px;
+	background-color: #2f3640;
+	border: 0px solid gray;
+	border-radius: 23px;
+	text-align: center;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+.container input{
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	width: 300px;
+	outline: none;
+	color: lightblue;
+	text-size-adjust: 10px;
+	cursor: pointer;
+     
+}
+
+.credit{
+	margin-top: 300px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(11, 36, 74);
+}
+
+@media screen and (max-width: 900px)
+{
+	body {
+		background-color: #e84118;
+	}
+
+@media screen and (max-width: 600px)
+{
+	body {
+		background-color: #e84118;
+	}
+}
